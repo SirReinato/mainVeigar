@@ -1,0 +1,7 @@
+.conteiner {
+  width: 1440px;
+  height: 534px;
+  margin: 0 auto;
+  flex-shrink: 0;
+  background: url(./bgHeader.png) lightgray 50% no-repeat
+}
