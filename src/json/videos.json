@@ -3,42 +3,42 @@
         "titulo": "COMO JOGAR DE VEIGAR [MID]",
         "path": "https://www.youtube.com/watch?v=oYT0XDbvW0k",
         "tag": "INICIANTE",
-        "capa": "public/videos/video-1/capa.png",
+        "capa": "../../../public/videos/video-1/capa.png",
         "key": "1"
     },
     {
         "titulo": "COMO JOGAR DE VEIGAR [MID]",
         "path": "https://www.youtube.com/watch?v=oYT0XDbvW0k",
         "tag": "INICIANTE",
-        "capa": "public/videos/video-1/capa.png",
+        "capa": "../../../public/videos/video-1/capa.png",
         "key": "2"
     },
     {
         "titulo": "COMO JOGAR DE VEIGAR [MID]",
         "path": "https://www.youtube.com/watch?v=oYT0XDbvW0k",
         "tag": "INICIANTE",
-        "capa": "public/videos/video-1/capa.png",
+        "capa": "../../../public/videos/video-1/capa.png",
         "key": "3"
     },
     {
         "titulo": "COMO JOGAR DE VEIGAR [MID]",
         "path": "https://www.youtube.com/watch?v=oYT0XDbvW0k",
         "tag": "INICIANTE",
-        "capa": "public/videos/video-1/capa.png",
+        "capa": "../../../public/videos/video-1/capa.png",
         "key": "4"
     },
     {
         "titulo": "COMO JOGAR DE VEIGAR [MID]",
         "path": "https://www.youtube.com/watch?v=oYT0XDbvW0k",
         "tag": "INICIANTE",
-        "capa": "public/videos/video-1/capa.png",
+        "capa": "../../../public/videos/video-1/capa.png",
         "key": "5"
     },
     {
         "titulo": "COMO JOGAR DE VEIGAR [MID]",
         "path": "https://www.youtube.com/watch?v=oYT0XDbvW0k",
         "tag": "INICIANTE",
-        "capa": "public/videos/video-1/capa.png",
+        "capa": "../../../public/videos/video-1/capa.png",
         "key": "6"
     }
 ]
