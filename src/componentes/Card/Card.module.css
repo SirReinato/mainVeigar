@@ -1,0 +1,43 @@
+.conteiner {
+  width: 409.6px;
+  height: 430px;
+  flex-shrink: 0;
+  margin-bottom: 32px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.capa {
+  width: 409.6px;
+  height: 287px;
+  flex-shrink: 0;
+}
+.capa img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.titulo {
+  color: #000;
+  font-family: Jolly Lodger;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 16px;
+}
+.conCoracao{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+.coracao {
+  width: 47px;
+  height: 41px;
+  flex-shrink: 0;
+  margin: 0 auto;
+}

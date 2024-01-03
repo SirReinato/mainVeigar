@@ -5,7 +5,6 @@ import Home from "./paginas/Home";
 import Favorito from "./paginas/Favorito";
 import Sobre from "./paginas/Sobre";
 
-  
 
 function App() {
   return (
