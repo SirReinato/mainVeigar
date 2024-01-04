@@ -2,6 +2,7 @@ import Titulos from "src/componentes/Titulos";
 import styles from "./Home.module.css";
 import Videos from "src/componentes/Videos";
 import Tags from "src/componentes/Tags";
+import OsArtigos from "src/componentes/Artigos";
 
 const Home = () => {
   return (
@@ -18,8 +19,10 @@ const Home = () => {
         </div>
         <div className={styles.atigos}>
           <Titulos titulo={'ARTIGOS'} />
+          <OsArtigos/>
         </div>
       </aside>
+      
       <article className={styles.pgOf}>
         <Titulos titulo={"Veigar na página oficial do lol"} />
       </article>
