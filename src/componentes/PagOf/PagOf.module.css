@@ -1,6 +1,7 @@
 .conteiner {
   width: 1440px;
   display: grid;
+  padding: 0  64px;
   margin: 0 auto;
   box-sizing: border-box;
   grid-template-columns: 30% 70%;
