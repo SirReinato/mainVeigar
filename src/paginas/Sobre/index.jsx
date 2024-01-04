@@ -1,8 +1,16 @@
+import Titulos from 'src/componentes/Titulos';
+import styles from './Sobre.module.css';
+import styled from 'styled-components';
+
+const Titulo = styled.h3`
+
+`
+
 const Sobre = () =>{
     return (
-        <>
-            <h1>aqui jas a ....</h1>
-        </>
+        <section className={styles.conteiner}>
+            <Titulos titulo={'Sobre'}/>
+        </section>
     )
 }
 

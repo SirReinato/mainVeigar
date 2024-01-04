@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import Footer from "src/componentes/footer";
 import Header from "src/componentes/header";
 
 const Padrao = () =>{
@@ -6,6 +7,7 @@ const Padrao = () =>{
         <>
             <Header/>
             <Outlet/>
+            <Footer/>
         </>
     )
 }
