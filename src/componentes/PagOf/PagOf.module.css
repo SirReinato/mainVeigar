@@ -1,0 +1,28 @@
+.conteiner {
+  width: 1440px;
+  display: grid;
+  margin: 0 auto;
+  box-sizing: border-box;
+  grid-template-columns: 30% 70%;
+  grid-template-areas: "artigos foto";
+}
+
+.artigos {
+  grid-area: artigos;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.foto {
+  grid-area: foto;
+  width: 100%;
+  height: 997px;
+}
+.foto img{
+    height: 890px;
+    
+    
+}

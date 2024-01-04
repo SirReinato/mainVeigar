@@ -3,6 +3,7 @@ import styles from "./Home.module.css";
 import Videos from "src/componentes/Videos";
 import Tags from "src/componentes/Tags";
 import OsArtigos from "src/componentes/Artigos";
+import PagOf from "src/componentes/PagOf";
 
 const Home = () => {
   return (
@@ -22,9 +23,10 @@ const Home = () => {
           <OsArtigos/>
         </div>
       </aside>
-      
+
       <article className={styles.pgOf}>
         <Titulos titulo={"Veigar na página oficial do lol"} />
+        <PagOf/>
       </article>
     </main>
   );
