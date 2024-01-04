@@ -1,6 +1,6 @@
 import styles from './Card.module.css';
-// import { CiHeart } from "react-icons/ci";
-// import { FaHeart } from "react-icons/fa";
+import { GoHeart } from "react-icons/go";
+import { GoHeartFill } from "react-icons/go";
 
 const Card = ({titulo, capa}) =>{
     return (
@@ -10,7 +10,7 @@ const Card = ({titulo, capa}) =>{
             </div>
             <h4 className={styles.titulo}>{titulo}</h4>
             <div className={styles.conCoracao}>
-                {/* <CiHeart className={styles.coracao}/> */}
+                <GoHeart className={styles.coracao}/>
             </div>
         </div>
     )
