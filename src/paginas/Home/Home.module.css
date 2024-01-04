@@ -25,9 +25,18 @@
 .tags {
   grid-area: tags;
   padding: 32px 0;
+  gap: 128px;
 }
 
 .pgOf {
   grid-area: pgOf;
   padding: 32px 0;
+  display: flex;
+  gap: 128px;
+  flex-direction: column;
+  
+}
+
+.atigos{
+  margin-top: 128px;
 }
