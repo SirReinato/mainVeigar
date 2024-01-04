@@ -14,3 +14,39 @@
     rgba(63, 59, 82, 0.9) 96.96%
   );
 }
+
+.ohGrid {
+  display: grid;
+  width: 900px;
+  padding: 10px 0px;
+  grid-template-columns: 450px 450px;
+  grid-template-rows: 500px 500px;
+
+  grid-template-areas:
+    "foto01 texto01"
+    "texto02 foto02";
+}
+
+.foto01 {
+  grid-area: foto01;
+  width: 100%;
+  height: 100%;
+}
+
+.texto01 {
+  grid-area: texto01;
+  width: 100%;
+  height: 100%;
+}
+
+.texto02 {
+  grid-area: texto02;
+  width: 100%;
+  height: 100%;
+}
+
+.foto02 {
+  grid-area: foto02;
+  width: 100%;
+  height: 100%;
+}
