@@ -25,7 +25,8 @@ const Titulo = styled.h2`
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
-  margin: 64px auto;
+  margin: 0 auto;
+  padding: 64px 0;
   line-height: normal;
   letter-spacing: 4.8px;
   text-align: center;
