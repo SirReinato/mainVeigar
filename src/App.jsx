@@ -5,6 +5,7 @@ import Home from "./paginas/Home";
 import Favorito from "./paginas/Favorito";
 import Sobre from "./paginas/Sobre";
 import SeuVideo from "./paginas/Video";
+import Erro404 from "./paginas/Erro404";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/SOBRE" element={<Sobre/>}/>
           <Route path=":id" element={<SeuVideo/> } />
         </Route>
+        <Route path="*" element={<Erro404/>}/>
       </Routes>
     </BrowserRouter>
   );

@@ -1,0 +1,81 @@
+.conteiner {
+  width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(29, 26, 69, 0.98) 31.99%,
+    rgba(40, 24, 63, 0.95) 55.27%,
+    rgba(62, 37, 102, 0.93) 87.39%,
+    rgba(63, 59, 82, 0.9) 96.96%
+  );
+}
+
+h2 {
+  font-size: 128px;
+  color: #fff;
+  font-family: Jolly Lodger;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 32px;
+  color: #fff;
+  font-family: Jolly Lodger;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 16px;
+  color: #fff;
+  font-family: Jolly Lodger;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  line-height: normal;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+}
+ul {
+  margin-top: 8px;
+  display: flex;
+  height: 22.942px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+li {
+  color: #ffffff;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #27173d 0px 0px 20px, #27173d 0px 0px 30px, #27173d 0px 0px 40px,
+    #27173d 0px 0px 50px, #27173d 0px 0px 75px;
+}
+a {
+    color: #FFF;
+    font-family: Jolly Lodger;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}

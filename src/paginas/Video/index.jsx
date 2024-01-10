@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import ohVideo from "../../json/videos.json";
 import styled from "styled-components";
+import Erro404 from "../Erro404";
 
 const Conteiner = styled.div`
   width: 1440px;
@@ -41,6 +42,10 @@ export default function SeuVideo() {
   const meuVideo = ohVideo.find((video) => {
     return video.id === Number(parametros.id);
   });
+
+  if(!meuVideo){
+    return <Erro404/>
+  }
 
   return (
     <Conteiner>
