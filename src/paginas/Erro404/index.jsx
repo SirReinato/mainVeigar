@@ -11,16 +11,16 @@ export default function Erro404() {
         A página que você esta procurando não foi encontrada <br /> Temos as
         seguintes opções
       </h4>
-      <nav>
-        <ul>
-          <li>
-            <Link to={"/"}>Home</Link>
+      <nav className={styles.aNav}>
+        <ul className={styles.aUl}>
+          <li className={styles.lista}>
+            <Link className={styles.link} to={"/"}>Home</Link>
           </li>
-          <li>
-            <Link to={"/favorito"}>Favorito</Link>
+          <li className={styles.lista}>
+            <Link className={styles.link} to={"/favorito"}>Favorito</Link>
           </li>
-          <li>
-            <Link to={"/sobre"}>Sobre</Link>
+          <li className={styles.lista}>
+            <Link className={styles.link} to={"/sobre"}>Sobre</Link>
           </li>
         </ul>
       </nav>
