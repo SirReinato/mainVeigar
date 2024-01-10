@@ -7,7 +7,7 @@ const Videos = () =>{
         <div className={styles.conteiner}>
            {osVideos.map(video =>{
             return(
-                <Card capa={video.capa} titulo={video.titulo} key={video.key} />
+                <Card {...video} key={video.id} />
             )
            })}
         </div>
