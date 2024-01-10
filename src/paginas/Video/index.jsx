@@ -2,10 +2,21 @@ import { useParams } from "react-router-dom";
 import ohVideo from "../../json/videos.json";
 import styled from "styled-components";
 
+const Conteiner = styled.div`
+  background: linear-gradient(
+    180deg,
+    rgba(29, 26, 69, 0.98) 31.99%,
+    rgba(40, 24, 63, 0.95) 55.27%,
+    rgba(62, 37, 102, 0.93) 87.39%,
+    rgba(63, 59, 82, 0.9) 96.96%
+  );
+`;
+
 const SectionVideos = styled.section`
   width: 70%;
   height: 600px;
   margin: 0 auto;
+  padding-bottom: 64px;
 `;
 
 const Titulo = styled.h2`
@@ -29,8 +40,8 @@ export default function SeuVideo() {
   });
 
   return (
-    <>
-    <Titulo>PLAYER</Titulo>
+    <Conteiner>
+      <Titulo>PLAYER</Titulo>
       <SectionVideos>
         <iframe
           width="100%"
@@ -42,6 +53,6 @@ export default function SeuVideo() {
           allowfullscreen
         ></iframe>
       </SectionVideos>
-    </>
+    </Conteiner>
   );
 }
