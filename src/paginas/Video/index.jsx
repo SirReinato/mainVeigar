@@ -3,6 +3,8 @@ import ohVideo from "../../json/videos.json";
 import styled from "styled-components";
 
 const Conteiner = styled.div`
+  width: 1440px;
+  margin: 0 auto;
   background: linear-gradient(
     180deg,
     rgba(29, 26, 69, 0.98) 31.99%,
