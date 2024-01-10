@@ -1,44 +1,45 @@
 [
     {
         "titulo": "COMO JOGAR DE VEIGAR [MID]",
-        "path": "https://www.youtube.com/watch?v=oYT0XDbvW0k",
+        "url": "https://www.youtube.com/embed/oYT0XDbvW0k?si=UgTKcH21P4EppmNX ",
         "tag": "INICIANTE",
         "capa": "https://i.ytimg.com/vi/oYT0XDbvW0k/maxresdefault.jpg",
-        "id": "1"
+        "id": 1
+    },
+
+    {
+        "titulo": "COMO JOGAR DE VEIGAR [MID]",
+        "url": "https://www.youtube.com/embed/oYT0XDbvW0k?si=UgTKcH21P4EppmNX ",
+        "tag": "INICIANTE",
+        "capa": "https://i.ytimg.com/vi/oYT0XDbvW0k/maxresdefault.jpg",
+        "id": 2
     },
     {
         "titulo": "COMO JOGAR DE VEIGAR [MID]",
-        "path": "https://www.youtube.com/watch?v=oYT0XDbvW0k",
-        "tag": "INICIANTE",
-        "capa": "https://i.ytimg.com/vi/oYT0XDbvW0k/maxresdefault.jpg",
-        "id": "2"
-    },
-    {
-        "titulo": "COMO JOGAR DE VEIGAR [MID]",
-        "path": "https://www.youtube.com/watch?v=oYT0XDbvW0k",
+        "url": "https://www.youtube.com/embed/oYT0XDbvW0k?si=UgTKcH21P4EppmNX ",
         "tag": "INICIANTE",
         "capa": "https://i.ytimg.com/vi/oYT0XDbvW0k/maxresdefault.jpg",
         "id": "3"
     },
     {
         "titulo": "COMO JOGAR DE VEIGAR [MID]",
-        "path": "https://www.youtube.com/watch?v=oYT0XDbvW0k",
+        "url": "https://www.youtube.com/embed/oYT0XDbvW0k?si=UgTKcH21P4EppmNX ",
         "tag": "INICIANTE",
         "capa": "https://i.ytimg.com/vi/oYT0XDbvW0k/maxresdefault.jpg",
-        "id": "4"
+        "id": 4
     },
     {
         "titulo": "COMO JOGAR DE VEIGAR [MID]",
-        "path": "https://www.youtube.com/watch?v=oYT0XDbvW0k",
+        "url": "https://www.youtube.com/embed/oYT0XDbvW0k?si=UgTKcH21P4EppmNX ",
         "tag": "INICIANTE",
         "capa": "https://i.ytimg.com/vi/oYT0XDbvW0k/maxresdefault.jpg",
-        "id": "5"
+        "id": 5
     },
     {
         "titulo": "COMO JOGAR DE VEIGAR [MID]",
-        "path": "https://www.youtube.com/watch?v=oYT0XDbvW0k",
+        "url": "https://www.youtube.com/embed/oYT0XDbvW0k?si=UgTKcH21P4EppmNX ",
         "tag": "INICIANTE",
         "capa": "https://i.ytimg.com/vi/oYT0XDbvW0k/maxresdefault.jpg",
-        "id": "6"
+        "id": 6
     }
 ]

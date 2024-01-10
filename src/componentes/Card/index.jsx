@@ -1,6 +1,7 @@
 import styles from "./Card.module.css";
 import { GoHeart } from "react-icons/go";
 import { GoHeartFill } from "react-icons/go";
+import { Link } from "react-router-dom";
 import { useFavoritoContext } from "src/context";
 
 const Card = ({ titulo, capa, id }) => {
@@ -11,9 +12,11 @@ const Card = ({ titulo, capa, id }) => {
 
   return (
     <div className={styles.conteiner}>
-      <div className={styles.capa}>
-        <img src={capa} alt={titulo} />
-      </div>
+      <Link to={`/${id}`}>
+        <div className={styles.capa}>
+          <img src={capa} alt={titulo} />
+        </div>
+      </Link>
       <h4 className={styles.titulo}>{titulo}</h4>
       <div
         className={styles.conCoracao}

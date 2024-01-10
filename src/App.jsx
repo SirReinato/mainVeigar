@@ -4,6 +4,7 @@ import Padrao from "./paginas/Padrao";
 import Home from "./paginas/Home";
 import Favorito from "./paginas/Favorito";
 import Sobre from "./paginas/Sobre";
+import SeuVideo from "./paginas/Video";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<Home/>}/>
           <Route path="/FAVORITO" element={<Favorito/>}/>
           <Route path="/SOBRE" element={<Sobre/>}/>
+          <Route path=":id" element={<SeuVideo/> } />
         </Route>
       </Routes>
     </BrowserRouter>
