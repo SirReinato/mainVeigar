@@ -1,14 +1,22 @@
 [
     {
-        "nome": "TODOS"
+        "id": 0,
+        "nome": "TODOS",
+        "tag": 1
     },
     {
-        "nome": "INICIANTE"
+        "id": 1,
+        "nome": "INICIANTE",
+        "tag": 2
     },
     {
-        "nome": "INTERMEDIARIO"
+        "id": 2,
+        "nome": "INTERMEDIARIO",
+        "tag": 3
     },
     {
-        "nome": "PROFISSIONAL"
+        "id": 3,
+        "nome": "PROFISSIONAL",
+        "tag": 4
     }
 ]

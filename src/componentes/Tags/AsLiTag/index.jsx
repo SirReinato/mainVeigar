@@ -18,6 +18,7 @@ const AsLi = styled.li`
   line-height: normal;
   letter-spacing: 2.4px;
   text-transform: uppercase;
+  cursor: pointer;
 `;
 
 export default function AsLiTaf({ nome }) {

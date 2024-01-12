@@ -10,16 +10,25 @@ const Conteiner = styled.ul`
   gap: 16px;
 `;
 
-const Tags = () => {
+const Tags = ({ setTag }) => {
   return (
     <nav>
-        <Conteiner>
-            {asTags.map(cadaUma =>{
-                return(
-                    <AsLiTaf nome={cadaUma.nome}/>
-                )
-            })}
-        </Conteiner>
+      <Conteiner>
+        {asTags.map((cadaUma) => {
+          return (
+            <AsLiTaf
+              nome={cadaUma.nome}
+              onClick={() => setTag(cadaUma.tag)}
+              key={cadaUma.id}
+            ></AsLiTaf>
+            // <AsLiTaf
+            //   nome={cadaUma.nome}
+            //   key={cadaUma.id}
+            //   onClick={() => setTag(Ateste)}
+            //   />
+          );
+        })}
+      </Conteiner>
     </nav>
   );
 };
