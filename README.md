@@ -1,8 +1,7 @@
-# React + Vite
+# Main Veigar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Em desenvolvimento
 
-Currently, two official plugins are available:
+Este site tem como objetivo o treino de `React`, principalmente sobre `RouterDom` e `Api`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ALÉM DE SER UM RECURSO COMPLETO PARA APRENDER A JOGAR COM O VEIGAR, O SITE TAMBÉM TEM COMO OBJETIVO O APERFEIÇOAMENTO E PRÁTICA DO REACT JS
