@@ -1,6 +1,7 @@
 .conteiner {
   width: 92%;
   display: flex;
+  margin-top: 32px;
   justify-content: space-between;
   flex-wrap: wrap;
   box-sizing: border-box;

@@ -9,42 +9,41 @@
     },
 
     {
-        "titulo": "COMO JOGAR DE VEIGAR [MID]",
-        "url": "https://www.youtube.com/embed/oYT0XDbvW0k?si=UgTKcH21P4EppmNX ",
+        "titulo": "Gameplay explicativa",
+        "url": "https://www.youtube.com/embed/rxvxWuhavfo?si=oS9dhfGG3chrnfp1 ",
         "tag": "INICIANTE",
-        "capa": "https://i.ytimg.com/vi/oYT0XDbvW0k/maxresdefault.jpg",
+        "capa": "https://i.ytimg.com/vi/rxvxWuhavfo/maxresdefault.jpg",
         "id": 2,
         "tagId": 1
     },
     {
-        "titulo": "COMO JOGAR DE VEIGAR [MID]",
-        "url": "https://www.youtube.com/embed/oYT0XDbvW0k?si=UgTKcH21P4EppmNX ",
+        "titulo": "COMO JOGAR DE VEIGAR - 2 -",
+        "url": "https://www.youtube.com/embed/GHD5wlqwUts?si=MUTj6NAM5HEQWSrJ",
         "tag": "INICIANTE",
-        "capa": "https://i.ytimg.com/vi/oYT0XDbvW0k/maxresdefault.jpg",
+        "capa": "https://i.ytimg.com/vi/GHD5wlqwUts/maxresdefault.jpg",
         "id": 3,
         "tagId": 2
     },
     {
-        "titulo": "COMO JOGAR DE VEIGAR [MID]",
-        "url": "https://www.youtube.com/embed/oYT0XDbvW0k?si=UgTKcH21P4EppmNX ",
+        "titulo": "Dicas para subir de elo",
+        "url": "https://www.youtube.com/embed/lUXB_TFhpXM?si=CjbTJ19gsgfvsHvr",
         "tag": "INICIANTE",
-        "capa": "https://i.ytimg.com/vi/oYT0XDbvW0k/maxresdefault.jpg",
+        "capa": "https://i.ytimg.com/vi/LG9bnfAJT2w/maxresdefault.jpg",
         "id": 4,
         "tagId": 2
     },
     {
-        "titulo": "COMO JOGAR DE VEIGAR [MID]",
-        "url": "https://www.youtube.com/embed/oYT0XDbvW0k?si=UgTKcH21P4EppmNX ",
-        "tag": "INICIANTE",
-        "capa": "https://i.ytimg.com/vi/oYT0XDbvW0k/maxresdefault.jpg",
+        "titulo": "veigar contra um campeão mais forte",
+        "url": "https://www.youtube.com/embed/psYaqLuN0fk?si=LyweOFov4-4asOLg",
+        "capa": "hhttps://i.ytimg.com/vi/psYaqLuN0fk/sddefault.jpg",
         "id": 5,
         "tagId": 3
     },
     {
-        "titulo": "COMO JOGAR DE VEIGAR [MID]",
-        "url": "https://www.youtube.com/embed/oYT0XDbvW0k?si=UgTKcH21P4EppmNX ",
+        "titulo": "COMO JOGAR DE VEIGAR - 3",
+        "url": "https://www.youtube.com/embed/rUqRHKUvK5g?si=70nM5avyFw-Ld9CF ",
         "tag": "INICIANTE",
-        "capa": "https://i.ytimg.com/vi/oYT0XDbvW0k/maxresdefault.jpg",
+        "capa": "https://i.ytimg.com/vi/rUqRHKUvK5g/maxresdefault.jpg",
         "id": 6,
         "tagId": 4
     }

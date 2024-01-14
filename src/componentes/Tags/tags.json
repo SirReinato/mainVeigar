@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "nome": "INICIANTE",
+    "tag": 1
+  },
+  {
+    "id": 1,
+    "nome": "INTERMEDIARIO",
+    "tag": 2
+  },
+  {
+    "id": 2,
+    "nome": "PROFISSIONAL",
+    "tag": 3
+  },
+  {
+    "id": 3,
+    "nome": "TODOS"
+
+  }
+]

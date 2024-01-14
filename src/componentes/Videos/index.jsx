@@ -1,5 +1,4 @@
 import styles from './Videos.module.css';
-import osVideos from '../../json/videos.json'
 import Card from '../Card';
 
 const Videos = ({osVideos = []}) =>{

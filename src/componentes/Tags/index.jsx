@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import asTags from "../../json/tags.json";
+import asTags from "./tags.json";
 import AsLiTaf from "./AsLiTag";
 
 const Conteiner = styled.ul`
@@ -21,11 +21,6 @@ const Tags = ({ setTag }) => {
               onClick={() => setTag(cadaUma.tag)}
               key={cadaUma.id}
             ></AsLiTaf>
-            // <AsLiTaf
-            //   nome={cadaUma.nome}
-            //   key={cadaUma.id}
-            //   onClick={() => setTag(Ateste)}
-            //   />
           );
         })}
       </Conteiner>
