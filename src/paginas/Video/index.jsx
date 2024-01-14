@@ -4,15 +4,8 @@ import styled from "styled-components";
 import Erro404 from "../Erro404";
 
 const Conteiner = styled.div`
-  width: 1440px;
-  margin: 0 auto;
-  background: linear-gradient(
-    180deg,
-    rgba(29, 26, 69, 0.98) 31.99%,
-    rgba(40, 24, 63, 0.95) 55.27%,
-    rgba(62, 37, 102, 0.93) 87.39%,
-    rgba(63, 59, 82, 0.9) 96.96%
-  );
+ width: 100%;
+ margin: 0 auto;
 `;
 
 const SectionVideos = styled.section`

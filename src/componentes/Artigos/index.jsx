@@ -11,13 +11,17 @@ const Conteiner = styled.ul`
 `;
 
 export default function OsArtigos() {
-    return (
-        <Conteiner>
-            {osArtigos.map(todosItens =>{
-                return (
-                    <OsLiArt nome={todosItens.nome}/>
-                )
-            })}
-        </Conteiner>
-    )
+  return (
+    <Conteiner>
+      {osArtigos.map((todosItens) => {
+        return (
+          <OsLiArt
+            key={todosItens.id}
+            url={todosItens.url}
+            nome={todosItens.nome}
+          />
+        );
+      })}
+    </Conteiner>
+  );
 }
