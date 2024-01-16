@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import asTags from "./tags.json";
 import AsLiTaf from "./AsLiTag";
+import { useEffect, useState } from "react";
 
 const Conteiner = styled.ul`
   display: inline-flex;
@@ -11,6 +11,17 @@ const Conteiner = styled.ul`
 `;
 
 const Tags = ({ setTag }) => {
+
+  const [asTags, setAsTags] = useState([]);
+
+  useEffect(() => {
+    fetch('https://my-json-server.typicode.com/SirReinato/apiMainVeigar/tags')
+      .then((resp) => resp.json())
+      .then((dados) => {
+        setAsTags(dados);
+      });
+  }, []);
+
   return (
     <nav>
       <Conteiner>

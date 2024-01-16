@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import osArtigos from "../../json/artigos.json";
 import OsLiArt from "./osLiArt";
+import { useEffect, useState } from "react";
 
 const Conteiner = styled.ul`
   display: inline-flex;
@@ -11,6 +11,18 @@ const Conteiner = styled.ul`
 `;
 
 export default function OsArtigos() {
+
+  const [osArtigos, setOsArtigos] = useState([]);
+
+  useEffect(() => {
+    fetch('https://my-json-server.typicode.com/SirReinato/apiMainVeigar/artigos')
+      .then((resp) => resp.json())
+      .then((dados) => {
+        setOsArtigos(dados);
+      });
+  }, []);
+
+
   return (
     <Conteiner>
       {osArtigos.map((todosItens) => {

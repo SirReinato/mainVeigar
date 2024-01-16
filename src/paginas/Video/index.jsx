@@ -1,5 +1,4 @@
 import { useParams } from "react-router-dom";
-import ohVideo from "../../json/videos.json";
 import styled from "styled-components";
 import Erro404 from "../Erro404";
 

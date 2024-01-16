@@ -6,11 +6,20 @@ import Tags from "src/componentes/Tags";
 import OsArtigos from "src/componentes/Artigos";
 import PagOf from "src/componentes/PagOf";
 
-import videosJson from "../../videos.json";
 
 
 const Home = () => {
-  const [osVideos, setOsVideos] = useState(videosJson);
+  const [osVideos, setOsVideos] = useState([]);
+
+  useEffect(() => {
+    fetch('https://my-json-server.typicode.com/SirReinato/apiMainVeigar/videos')
+      .then((resp) => resp.json())
+      .then((dados) => {
+        setOsVideos(dados);
+      });
+  }, []);
+
+  
 
 
   // filtros da tag--------------------
@@ -18,7 +27,7 @@ const Home = () => {
 
   useEffect(() => {
 
-    const videoFiltrado = videosJson.filter(video =>{
+    const videoFiltrado = osVideos.filter(video =>{
 
       const filtroPorTag = !tag || video.tagId === tag;
       return filtroPorTag
