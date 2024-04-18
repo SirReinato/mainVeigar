@@ -5,19 +5,18 @@ import Videos from "src/componentes/Videos";
 import Tags from "src/componentes/Tags";
 import OsArtigos from "src/componentes/Artigos";
 import PagOf from "src/componentes/PagOf";
-
+import dbJson from "../../json/db.json"
 
 
 const Home = () => {
-  const [osVideos, setOsVideos] = useState([]);
-
-  useEffect(() => {
-    fetch('https://my-json-server.typicode.com/SirReinato/apiMainVeigar/videos')
-      .then((resp) => resp.json())
-      .then((dados) => {
-        setOsVideos(dados);
-      });
-  }, []);
+  const [osVideos, setOsVideos] = useState(dbJson.videos);
+  // useEffect(() => {
+  //   fetch('https://my-json-server.typicode.com/SirReinato/apiMainVeigar/videos')
+  //     .then((resp) => resp.json())
+  //     .then((dados) => {
+  //       setOsVideos(dados);
+  //     });
+  // }, []);
 
   
 

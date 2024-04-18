@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import AsLiTaf from "./AsLiTag";
 import { useEffect, useState } from "react";
-
+import dbJson from "../../json/db.json"
 const Conteiner = styled.ul`
   display: inline-flex;
   padding-top: 24px;
@@ -12,15 +12,15 @@ const Conteiner = styled.ul`
 
 const Tags = ({ setTag }) => {
 
-  const [asTags, setAsTags] = useState([]);
+  const [asTags, setAsTags] = useState(dbJson.tags);
 
-  useEffect(() => {
-    fetch('https://my-json-server.typicode.com/SirReinato/apiMainVeigar/tags')
-      .then((resp) => resp.json())
-      .then((dados) => {
-        setAsTags(dados);
-      });
-  }, []);
+  // useEffect(() => {
+  //   fetch('https://my-json-server.typicode.com/SirReinato/apiMainVeigar/tags')
+  //     .then((resp) => resp.json())
+  //     .then((dados) => {
+  //       setAsTags(dados);
+  //     });
+  // }, []);
 
   return (
     <nav>

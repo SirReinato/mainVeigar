@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
 import Erro404 from "../Erro404";
-
+import dbJson from "../../json/db.json"
 const Conteiner = styled.div`
  width: 100%;
  margin: 0 auto;
@@ -29,6 +29,7 @@ const Titulo = styled.h2`
 `;
 
 export default function SeuVideo() {
+  const ohVideo = dbJson.videos;
   const parametros = useParams();
 
   const meuVideo = ohVideo.find((video) => {

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import OsLiArt from "./osLiArt";
 import { useEffect, useState } from "react";
-
+import dbJson from "../../json/db.json"
 const Conteiner = styled.ul`
   display: inline-flex;
   padding-top: 24px;
@@ -12,15 +12,15 @@ const Conteiner = styled.ul`
 
 export default function OsArtigos() {
 
-  const [osArtigos, setOsArtigos] = useState([]);
+  const [osArtigos, setOsArtigos] = useState(dbJson.artigos);
 
-  useEffect(() => {
-    fetch('https://my-json-server.typicode.com/SirReinato/apiMainVeigar/artigos')
-      .then((resp) => resp.json())
-      .then((dados) => {
-        setOsArtigos(dados);
-      });
-  }, []);
+  // useEffect(() => {
+  //   fetch('https://my-json-server.typicode.com/SirReinato/apiMainVeigar/artigos')
+  //     .then((resp) => resp.json())
+  //     .then((dados) => {
+  //       setOsArtigos(dados);
+  //     });
+  // }, []);
 
 
   return (

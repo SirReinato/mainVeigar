@@ -1,0 +1,93 @@
+{
+    "videos": [
+        {
+            "titulo": "COMO JOGAR DE VEIGAR [MID]",
+            "url": "https://www.youtube.com/embed/oYT0XDbvW0k?si=UgTKcH21P4EppmNX ",
+            "capa": "https://i.ytimg.com/vi/oYT0XDbvW0k/maxresdefault.jpg",
+            "id": 1,
+            "tagId": 1
+        },
+    
+        {
+            "titulo": "Gameplay explicativa",
+            "url": "https://www.youtube.com/embed/rxvxWuhavfo?si=oS9dhfGG3chrnfp1 ",
+            "capa": "https://i.ytimg.com/vi/rxvxWuhavfo/maxresdefault.jpg",
+            "id": 2,
+            "tagId": 1
+        },
+        {
+            "titulo": "COMO JOGAR DE VEIGAR - 2 -",
+            "url": "https://www.youtube.com/embed/GHD5wlqwUts?si=MUTj6NAM5HEQWSrJ",
+            "capa": "https://i.ytimg.com/vi/GHD5wlqwUts/maxresdefault.jpg",
+            "id": 3,
+            "tagId": 2
+        },
+        {
+            "titulo": "Dicas para subir de elo",
+            "url": "https://www.youtube.com/embed/lUXB_TFhpXM?si=CjbTJ19gsgfvsHvr",
+            "capa": "https://i.ytimg.com/vi/LG9bnfAJT2w/maxresdefault.jpg",
+            "id": 4,
+            "tagId": 2
+        },
+        {
+            "titulo": "veigar contra um campeão mais forte",
+            "url": "https://www.youtube.com/embed/psYaqLuN0fk?si=LyweOFov4-4asOLg",
+            "capa": "https://i.ytimg.com/vi/psYaqLuN0fk/sddefault.jpg",
+            "id": 5,
+            "tagId": 3
+        },
+        {
+            "titulo": "COMO JOGAR DE VEIGAR - 3",
+            "url": "https://www.youtube.com/embed/rUqRHKUvK5g?si=70nM5avyFw-Ld9CF ",
+            "capa": "https://i.ytimg.com/vi/rUqRHKUvK5g/maxresdefault.jpg",
+            "id": 6,
+            "tagId": 4
+        }
+    ], 
+
+    "tags": [
+        {
+          "id": 0,
+          "nome": "INICIANTE",
+          "tag": 1
+        },
+        {
+          "id": 1,
+          "nome": "INTERMEDIARIO",
+          "tag": 2
+        },
+        {
+          "id": 2,
+          "nome": "PROFISSIONAL",
+          "tag": 3
+        },
+        {
+          "id": 3,
+          "nome": "TODOS"
+      
+        }
+      ],
+      "artigos": [
+        {
+            "nome": "5 erros que jogadores de lol cometem",
+            "url": "https://www.strafe.com/br/news/read/erros-comuns-5-erros-que-jogadores-de-lol-cometem/",
+            "id": "1"
+        },
+        {
+            "nome": "Os 5 passos para buildar como um pro-player",
+            "url": "https://escoladosgames.com/os-5-passos-para-buildar-como-um-pro-player/",
+            "id": "2"
+        },
+        {
+            "nome": "Como subir de elo no LoL",
+            "url": "https://maisesports.com.br/dicas-como-subir-de-elo-no-lol/",
+            "id": "3"
+        },
+        {
+            "nome": "Veigar Probuilds",
+            "url": "https://www.lolvvv.com/pt/champion/Veigar/probuilds",
+            "id": "4"
+        }
+    ]
+      
+}
